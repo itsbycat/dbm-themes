@@ -1,0 +1,121 @@
+#action-label {
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  outline: none; }
+
+button.opener {
+  background-color: #EC4847;
+  color: 	#f2dedf;
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 14px;
+  transition: 0.4s; }
+
+button.openerChild {
+  background-color: #8b2a2a;
+  color: #F2DEDF;
+  cursor: pointer;
+  padding: 6px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 12px; }
+  button.openerChild.active, button.openerChild:hover {
+    background-color: #6e1c1c; }
+
+button.opener:after {
+  content: "+";
+  color: #F2DEDF;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px; }
+
+button.openerChild:after {
+  color: #F2DEDF;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px; }
+
+button.opener.active:after {
+  content: "-"; }
+
+div.dropContent {
+  background-color: #EC4847;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out; }
+
+.ui.dropdown {
+  text-align: center;
+  width: 200px; }
+
+input[type="text"] {
+  width: 90%; }
+
+.action-input {
+  margin: 0 auto;
+  padding-top: 6px;
+  max-width: 640px;
+  width: 94%;
+  height: 80%; }
+  .action-input h1 {
+    margin-top: 0; }
+
+#theHead {
+  right: 0;
+  top: 0;
+  left: 0;
+  background-color: #EC4847;
+  text-align: center; }
+
+.action-footer {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #EC4847;
+  text-align: center; }
+
+#leSideBarContent {
+  margin-right: 10px;
+  width: 220px; }
+
+#leSideBar {
+  width: 232px;
+  margin: 10px; }
+  #leSideBar::-webkit-scrollbar {
+    width: 12px;
+    background-color: #EC4847; }
+  #leSideBar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #EC4847;
+    -webkit-box-shadow: inset 0 0 6px rgb(196, 19, 19);
+    border-radius: 10px;
+    background-color: #EC4847; }
+  #leSideBar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px #EC4847;
+    -webkit-box-shadow: inset 0 0 6px #F2DEDF;
+    background-color: #EC4847; }
+
+input::-webkit-calendar-picker-indicator {
+  opacity: 100;
+  background-color: transparent;
+  transform: scale(0.7, 0.7); }
+  input::-webkit-calendar-picker-indicator:hover {
+    background-color: transparent; }
+
+input#searchfilter {
+  border-radius: 4px;
+  padding-left: 4px;
+  width: 94%;
+  height: 22px;
+  color: #F2DEDF;
+  background-color: #EC4847;
+  border: 2px solid #F2DEDF; }
