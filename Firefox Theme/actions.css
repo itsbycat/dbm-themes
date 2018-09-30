@@ -40,7 +40,7 @@ button.openerChild.active, button.openerChild:hover {
 }
 
 button.opener:after {
-	content: '+';
+	content: '🔽 ';
 	color: #777;
 	font-weight: bold;
 	float: right;
@@ -55,7 +55,7 @@ button.openerChild:after {
 }
 
 button.opener.active:after {
-	content: "-";
+	content: "🔼";
 }
 
 div.dropContent {
