@@ -8,10 +8,12 @@ Turkish Theme Redux:  `Beta2.0`
 
 Firefox Theme: `1.2`
 
+Firefox Theme - Gif: `Beta1.0` Testing
+
 ---
 
 Gelecek Temalar
-- [ ] Firefox Theme - Gif
+- [x] Firefox Theme - Gif `testing`
 - [x] Firefox Theme
 
 ---
