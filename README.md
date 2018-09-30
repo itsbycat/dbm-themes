@@ -1,4 +1,4 @@
-### Versions
+###### Versions
 
 Cat Project: `1.0`
 
@@ -6,7 +6,18 @@ Turkish Theme Normal: `Beta2.0`
 
 Turkish Theme Redux:  `Beta2.0`
 
-Firefox Theme: `1.0`
+Firefox Theme: `1.2` `!!!UPDATED!!!`
+
+---
+
+Gelecek Güncellemeler
+- [ ] Firefox Theme - Gif
+- [x] Firefox Theme
+
+---
+
+* Firefox Theme
+    * Running background update!!!
 
 ---
 
