@@ -6,11 +6,11 @@ Turkish Theme Normal: `Beta2.0`
 
 Turkish Theme Redux:  `Beta2.0`
 
-Firefox Theme: `1.2` `!!!UPDATED!!!`
+Firefox Theme: `1.2`
 
 ---
 
-Gelecek Güncellemeler
+Gelecek Temalar
 - [ ] Firefox Theme - Gif
 - [x] Firefox Theme
 
