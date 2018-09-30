@@ -293,7 +293,7 @@ p#settings-description {
 	overflow: hidden;
 	transition: 0.5s;}
 	body.running {
-	  background-image: url("https://cdn.discordapp.com/attachments/495619118662156319/495619722939727872/firefox_theme_2.png") !important; 
+	  background-image: url("https://cdn.discordapp.com/attachments/495619118662156319/495875737153175552/firefox_frame_running.png") !important; 
 	}
   a:link {
 	color: #E57438;
