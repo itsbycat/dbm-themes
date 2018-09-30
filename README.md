@@ -18,6 +18,7 @@ Gelecek Temalar
 
 * Firefox Theme
     * Running background update!!!
+    * Actions selector menu update!!!
 
 ---
 
