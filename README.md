@@ -19,6 +19,7 @@ Gelecek Temalar
 ---
 
 * Firefox Theme
+    * Edit Actions Darken effect
     * Running background update!!!
     * Actions selector menu update!!!
 
