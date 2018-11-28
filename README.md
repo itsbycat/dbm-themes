@@ -12,7 +12,13 @@ Firefox Theme - Gif: `Beta1.0` Testing
 
 ---
 
-Gelecek Temalar
+#Plz Support Me Via Patreon
+
+https://www.patreon.com/kubilayuzun08
+
+---
+
+Future Themes
 - [x] Firefox Theme - Gif `testing`
 - [x] Firefox Theme
 
@@ -22,13 +28,3 @@ Gelecek Temalar
     * Edit Actions Darken effect
     * Running background update!!!
     * Actions selector menu update!!!
-
----
-
-```js
-/*
- * Creator By ByCat#7797
- */
-```
-
-`main.js` deki yazıyı silebilirsiniz isterseniz bir şey değişmez.
