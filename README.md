@@ -10,6 +10,8 @@ Firefox Theme: `1.2`
 
 Firefox Theme - Gif: `Beta1.0` Testing
 
+OverWatch Sombra: `1.2`
+
 ---
 
 #Plz Support Me Via Patreon
@@ -19,6 +21,7 @@ https://www.patreon.com/kubilayuzun08
 ---
 
 Future Themes
+- [x] New Theme
 - [x] Firefox Theme - Gif `testing`
 - [x] Firefox Theme
 
