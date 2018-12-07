@@ -21,7 +21,7 @@ https://www.patreon.com/kubilayuzun08
 ---
 
 Future Themes
-- [ ] Abstract Theme*
+- [x] Abstract Theme*
 - [ ] New Theme (unnamed)
 - [x] New GIF Theme
 - [x] Firefox Theme - Gif `testing`
