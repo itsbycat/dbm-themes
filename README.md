@@ -12,7 +12,7 @@ Firefox Theme - Gif: `Beta1.0` Testing
 
 OverWatch Sombra: `1.2`
 
-Abstract Theme: `1.5`
+Abstract Theme: `1.7`
 
 ---
 
