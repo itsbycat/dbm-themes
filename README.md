@@ -3,8 +3,8 @@ https://www.patreon.com/kubilayuzun08
 
 ---
 Future Themes
+- [ ] GIF Theme (based on abstract)
 - [x] Abstract Theme*
-- [ ] New Theme (unnamed)
 ---
 
 ##### Versions
