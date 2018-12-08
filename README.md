@@ -3,7 +3,8 @@ https://www.patreon.com/kubilayuzun08
 
 ---
 Future Themes
-- [x] Abstract Theme*
+- [ ] Windows 11 Theme
+- [x] Abstract Theme
 ---
 
 ##### Versions
