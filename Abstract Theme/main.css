@@ -295,12 +295,12 @@ p#settings-description {
 	  background-image: url("https://cdn.discordapp.com/attachments/495619118662156319/520632122474758169/abstract_r.png") !important; 
 	}
   a:link {
-	color: #FFD264;
+	color: #DD4D8C;
 	transition: all 0.3s ease-in-out !important;}
   
   a:link:hover {
 	text-decoration: underline;
-	color: #FFD264;
+	color: #af3f70;
 	transition: all 0.3s ease-in-out !important}
   
 	select#commands {
