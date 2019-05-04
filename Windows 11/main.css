@@ -1,0 +1,532 @@
+/*
+ *
+ *  Created By ByCat#7797
+ *
+ *  Windows 11*
+ *
+ */
+
+ p#settings-description {
+	color: #222;
+}
+
+.ui.multiple.dropdown > .label {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	display: inline-block;
+	vertical-align: top;
+	white-space: normal;
+	font-size: 1em;
+	padding: 0.35714286em 0.78571429em;
+	margin: 0.14285714rem 0.28571429rem 0.14285714rem 0em;
+	box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
+} 
+
+body {
+	color: #fff;
+	background-image: url("https://cdn.discordapp.com/attachments/495619118662156319/574177055122391041/w11-73d86e39ecbc1013896c0b5000a8bed0.png") !important;
+	background-position: center !important;
+	background-size: cover;
+	background-position: right;
+	overflow: hidden;
+	transition: 0.5s;}
+}
+
+body.running {
+	background-image: url("https://cdn.discordapp.com/attachments/495619118662156319/574175472800235520/w11.png") !important;
+}
+
+a:link {
+	color: #99b3ff;
+}
+
+div.action-holder {
+	width: 240px; 
+	float: left; 
+	max-width: 240px; 
+	padding-top: 22px;
+}
+
+div.event-action-holder {
+	width: 240px; 
+	float: left; 
+	max-width: 240px; 
+	padding-top: 22px;
+}
+
+select#commands {
+	overflow: hidden;
+	height: 120px;
+}
+
+select#actions {
+	overflow: hidden;
+	position: static;
+}
+
+div.footer {
+	position: static;
+	float: right;
+	width: 100%;
+	height: 100%;
+	right: 0px;
+	bottom: 100px;
+	left: 220px;
+	/*top: 400px;*/
+	text-align: left;
+}
+
+div.infooter {
+	padding-top: 49px;
+}
+
+div.einfooter {
+	padding-top: 77px;
+}
+
+div.actionButtonDiv {
+	width: 90%; 
+	padding: 10px 10px 10px 0px;
+	text-align: left;
+}
+
+button.actionButtons {
+	width: 120px;
+	padding-right: 20px;
+	padding-left: 20px;
+	float: right;
+}
+
+div.tabs {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #111111;
+}
+
+div.tabs button {
+	width: 33%;
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 12px 20px;
+	transition: 0.2s;
+}
+
+div.tabs button:hover {
+	background-color: #ddd;
+}
+
+div.tabs button.active {
+	background-color: #ccc;
+}
+
+div.myactions {
+	overflow-y: auto;
+	overflow-x: hidden;
+	border: 1px solid #3f3f3f;
+	background-color: #2e2e2e;
+	opacity: .875;
+	transition: 0.5s;
+	border-radius: 0.28571429rem;
+}
+
+div.myactions:hover {
+	border: 1px solid #429CE3;
+	color: #e6e6e6;
+}
+
+div.myactions button {
+	overflow: hidden;
+	width: 100%;
+	height: 20px;
+	text-align: left;
+	color: #a0a0a0;
+	background-color: #2e2e2e;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+div.myactions button:hover {
+	background-color: #38343a;
+	color: #e6e6e6;
+}
+
+div.myactions button.active {
+	background-color: #332e36;
+	color: #e6e6e6;
+}
+
+div.emyactions {
+	overflow: auto;
+	overflow-x: hidden;
+	border: 1px solid #3f3f3f;
+	background-color: #2e2e2e;
+	opacity: .875;
+	transition: 0.5s;
+	border-radius: 0.28571429rem;
+}
+
+div.emyactions:hover {
+	border: 1px solid #429CE3;
+	color: #e6e6e6;
+}
+
+div.emyactions button {
+	overflow: hidden;
+	width: 100%;
+	height: 20px;
+	text-align: left;
+	color: #a0a0a0;
+	background-color: #2e2e2e;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+div.emyactions button:hover {
+	background-color: #38343a;
+	color: #e6e6e6;
+}
+
+div.emyactions button.active {
+	background-color: #332e36;
+	color: #e6e6e6;
+}
+
+.page {
+	display: none;
+}
+
+input {
+	color: #a0a0a0;
+	background-color: #2e2e2e;
+	border: 1px solid #3f3f3f;
+	opacity: .875;
+	padding-bottom: 2px;
+}
+
+textarea {
+	color: #a0a0a0;
+	background-color: #2e2e2e;
+	border: 1px solid #3f3f3f;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	padding-left: 8px;
+	transition: 0.5s;
+}
+
+textarea:focus {
+	outline-width: 0;
+}
+
+textarea:hover,
+textarea:active {
+	border: 1px solid #429CE3;
+	color: #e6e6e6;
+}
+
+textarea::selection {
+	background: #b8dbff;
+}
+
+select {
+	outline: none;
+	color: #e3e5e8;
+	background-color: #53585f;
+}
+
+button#a_tab_com, button#a_tab_eve, button#a_tab_sets {
+	background-color: #0B0B0B;
+	color: #949494;
+	transition: 0.25s;
+}
+
+button#a_tab_com.active, button#a_tab_com.active:hover,
+button#a_tab_eve.active, button#a_tab_eve.active:hover,
+button#a_tab_sets.active, button#a_tab_sets.active:hover {
+	background-color: #429CE3;
+	color: #e3e5e8;
+}
+
+button#a_tab_com:hover,
+button#a_tab_eve:hover,
+button#a_tab_sets:hover {
+	background-color: #2C2C2C;
+	color: #e3e5e8;
+}
+
+input::selection {
+	background: #b8dbff;
+}
+
+input:focus {
+	outline-width: 0;
+}
+
+input:hover, input#name:hover, input#alias-input:hover, input#ename:hover, input#etemp:hover, input#etemp2:hover, input.settings:hover {
+	border: 1px solid #429CE3;
+	color: #e6e6e6;
+}
+
+input:active, input#name:active, input#alias-input:active, input#ename:active, input#etemp:active, input#etemp2:active, input.settings:active {
+	border: 1px solid #429CE3;
+	color: #e6e6e6;
+}
+
+input:focus, input#name:focus, input#alias-input:focus, input#ename:focus, input#etemp:focus, input#etemp2:focus, input.settings:focus {
+	border: 1px solid #429CE3;
+	color: #e6e6e6;
+}
+
+input#name, input#alias-input, input#ename, input#etemp, input#etemp2 {
+	border: 1px solid #3f3f3f;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+	transition: 0.5s
+}
+
+input.settings {
+	font-family: monospace;
+	width: 100%;
+	border: 1px solid #3f3f3f;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+	transition: 0.5s;
+}
+
+input.settings:hover {
+	border: 1px solid #429CE3;
+	color: #e6e6e6;
+}
+
+input.round {
+	width: 100%;
+	border: 1px solid #3f3f3f;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+	transition: 0.5s;
+}
+
+input.round:hover, input.round:active {
+	border: 1px solid #429CE3;
+	color: #ececec;
+}
+
+.round {
+	background: #2e2e2e;
+	color: #a0a0a0;
+}
+
+.round:hover {
+	color: #ececec;
+	background: #2e2e2e
+}
+
+select.round {
+	width: 100%;
+	border: 1px solid #3f3f3f;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	height: 28px;
+	padding-left: 8px;
+	transition: 0.5s;
+}
+
+select.round:hover, select.round:active {
+	border: 1px solid #429CE3;
+	color: #ececec;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background-color: #222325;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #222325;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #429CE3;
+	border-radius: 3px;
+}
+
+#aliases, #moduleManager {
+	height: 380px;
+	border-radius: 10px;
+	background-color: #2e2e2e;
+	border: 2px solid black;
+}
+
+.modalChild {
+	height: 240px;
+	margin-left: 70px;
+	margin-top: 15px;
+	overflow-y: scroll;
+}
+
+.ui.button {
+	background-color: #2e2e2e;
+	color: rgba(255, 255, 255, 0.6);
+	transition: 0.25s;
+}
+
+.ui.button:hover {
+	background-color: #272727;
+	color: #e3e5e8;
+}
+
+.ui.button:focus {
+	background: #429CE3;
+	color: #e3e5e8;
+}
+
+.ui.fluid.dropdown,
+.ui.dropdown {
+	color: #a0a0a0;
+	background-color: #2e2e2e;
+	border: 1px solid #3f3f3f;
+	transition: 0.25s;
+}
+
+.ui.fluid.dropdown:hover,
+.ui.dropdown:hover {
+	border: 1px solid #429CE3;
+	color: #e6e6e6;
+	background: #2e2e2e;
+}
+
+.ui.fluid.dropdown:active, 
+.ui.fluid.dropdown:focus,
+.ui.dropdown:active,
+.ui.dropdown:focus {
+	border: 1px solid #429CE3;
+	color: #e6e6e6;
+	background: #2e2e2e;
+}
+
+.ui.fluid.dropdown > .menu,
+.ui.dropdown > .menu {
+	background: #2e2e2e;
+	border: 1px solid #429CE3;
+	box-shadow: none;
+}
+
+.ui.dropdown .menu .active.item {
+	color: #ececec;
+	background: #2e2e2e;
+	font-weight: normal;
+}
+
+.ui.dropdown .menu > .item {
+	color: #949494;
+}
+
+.ui.dropdown .menu > .item:hover {
+	color: #bebebe;
+	background: #252525;
+}
+
+.ui.selection.dropdown .menu > .item {
+	border-top: 1px solid #222222;
+	transition: 0.25s;
+}
+
+.ui.selection.dropdown:hover {
+	border: 1px solid #222222;
+}
+
+.ui.selection.dropdown:hover {
+	border-color: #429CE3;
+	box-shadow: none;
+  }
+
+.ui.selection.active.dropdown,
+.ui.selection.active.dropdown .menu {
+	border-color: #429CE3;
+	box-shadow: 0px 2px 6px 2px #000;
+}
+  
+.ui.selection.dropdown:focus,
+.ui.selection.dropdown:focus .menu {
+	border-color: #429CE3;
+	box-shadow: 0px 2px 6px 2px #000;
+}
+
+.ui.selection.active.dropdown,
+.ui.selection.active.dropdown:active,
+.ui.selection.active.dropdown:active .menu,
+.ui.selection.active.dropdown:hover,
+.ui.selection.active.dropdown:hover .menu {
+	border-color: #429CE3;
+	box-shadow: 0px 2px 6px 2px #000;
+}
+
+.settings.round {
+	color: #a0a0a0;
+	background-color: #2e2e2e;
+	border: 1px solid #3f3f3f;
+	opacity: .875;
+	padding-bottom: 2px;
+	transition: 0.5s;
+}
+
+.settings.round:hover {
+	color: #e6e6e6;
+	border: 1px solid #429CE3;
+}
+
+.settings.round:active {
+	color: #e6e6e6;
+	opacity: 1;
+	border: 1px solid #429CE3;
+}
+
+select:active, select:hover,
+select:focus {
+	outline: none;
+}
+
+.ui.piled.segments, 
+.ui.piled.segment {
+	height: 0px;
+	width: 0px;
+	background: #1e1e1e;
+	padding: 0px;
+	margin-top: -20px;
+	overflow: hidden;
+	margin-top: -25%;
+	margin-bottom: -5px
+}
+
+body.pushable > .pusher {
+	background-image: url("https://cdn.discordapp.com/attachments/495619118662156319/574177953311621121/w11-md5.png") !important;
+background-position: bottom !important;
+background-position: center !important;
+background-size: cover;
+background-position: right;
+overflow: hidden;
+transition: 0.5s; }
+
+/* E

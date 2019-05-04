@@ -1,0 +1,38 @@
+/*
+ *
+ *  Created By ByCat#7797
+ *
+ *  Windows 11*
+ *
+ */
+
+ body {
+	background: black;
+}
+
+.emojiButton {
+	background-color: #429CE3; /* Green */
+	border: none;
+	color: white;
+	width: 36px;
+	height: 36px;
+	padding: 2px 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: white; 
+	color: black; 
+	border: 2px solid #47aefc;
+}
+
+.emojiButton:hover {
+	background-color: #2a6694;
+	color: white;
+}
+
+/* Z 
