@@ -3,7 +3,7 @@ https://www.patreon.com/kubilayuzun08
 
 ---
 Future Themes
-- [ ] Windows 11 Theme
+- [x] Windows 11 Theme
 - [x] Abstract Theme
 ---
 
@@ -21,3 +21,5 @@ Firefox Theme - Gif: `Beta1.0` Testing
 OverWatch Sombra: `1.2`
 
 Abstract Theme: `1.7`
+
+Windows 11 Concept Theme: `1.1`
