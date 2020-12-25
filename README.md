@@ -1,6 +1,3 @@
-### Plz Support Me Via Patreon
-https://www.patreon.com/kubilayuzun08
-
 ---
 Future Themes
 - [x] Windows 11 Theme
